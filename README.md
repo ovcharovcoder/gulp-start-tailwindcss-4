@@ -118,12 +118,13 @@ README.md
 - [Tailwind Snippets](https://marketplace.visualstudio.com/items?itemName=Zarifprogrammer.tailwind-snippets)
 
 Якщо ви використовуєте VS Code, додайте до settings.json:
-
+```
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false
 }
+```
 
 
 ## ☕ Сподобалась збірка? 
