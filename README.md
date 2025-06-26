@@ -117,6 +117,14 @@ README.md
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Tailwind Snippets](https://marketplace.visualstudio.com/items?itemName=Zarifprogrammer.tailwind-snippets)
 
+Якщо ви використовуєте VS Code, додайте до settings.json:
+
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false
+}
+
 
 ## ☕ Сподобалась збірка? 
 Пригостіть автора кавою через [PayPal](https://www.paypal.com/donate/?business=datoshcode@gmail.com)
