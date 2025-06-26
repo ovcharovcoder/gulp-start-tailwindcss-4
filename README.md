@@ -71,7 +71,7 @@ gulpfile.js
 package.json
 postcss.config.js
 tailwind.config.js
-readme.txt
+README.md
 ```
 
 РОБОТА З ФАЙЛАМИ ПРОЄКТА
