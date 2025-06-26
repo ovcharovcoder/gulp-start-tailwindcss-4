@@ -1,7 +1,7 @@
 {
   "name": "gulp_start-tailwind-4",
   "version": "1.0.0",
-  "description": "",
+  "description": "gulp_start-tailwind-4",
   "scripts": {
     "start": "gulp",
     "dev": "gulp",
