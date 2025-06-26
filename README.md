@@ -130,7 +130,7 @@ README.md
 Запустіть форматування:
 ```npm run format```
 
-Перевірте, чи Prettier форматує файли без помилок. Класи Tailwind CSS, такі як mt-6 ml-2.5 text-center font-sans text-5xl font-bold, мають бути відсортовані в правильному порядку (наприклад, font-sans font-bold text-5xl text-center ml-2.5 mt-6).
+Перевірте, чи Prettier форматує файли без помилок. Класи Tailwind CSS, такі як ```mt-6 ml-2.5 text-center font-sans text-5xl font-bold```, мають бути відсортовані в правильному порядку (наприклад, ```font-sans font-bold text-5xl text-center ml-2.5 mt-6```).
 
 
 ## ☕ Сподобалась збірка? 
