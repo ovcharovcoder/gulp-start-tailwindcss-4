@@ -65,9 +65,7 @@ app/
 |-- pages/
     |-- index.html
    
-.gitignore
-.prettierignore
-.prettierrc 
+.gitignore 
 gulpfile.js 
 package.json
 postcss.config.js
@@ -117,20 +115,6 @@ README.md
 -------------------------------------------------
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Tailwind Snippets](https://marketplace.visualstudio.com/items?itemName=Zarifprogrammer.tailwind-snippets)
-- Prettier-plugin-tailwindcss (додано до збірки)
-
-Якщо ви використовуєте VS Code, то для налаштування плагіну Prettier-plugin-tailwindcss додайте до settings.json:
-```
-{
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": false
-}
-```
-Запустіть форматування:
-```npm run format```
-
-Перевірте, чи Prettier форматує файли без помилок. Класи Tailwind CSS, такі як ```mt-6 ml-2.5 text-center font-sans text-5xl font-bold```, мають бути відсортовані в правильному порядку (наприклад, ```font-sans font-bold text-5xl text-center ml-2.5 mt-6```).
 
 
 ## ☕ Сподобалась збірка? 
