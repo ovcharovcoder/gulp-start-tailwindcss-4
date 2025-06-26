@@ -116,8 +116,9 @@ README.md
 -------------------------------------------------
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Tailwind Snippets](https://marketplace.visualstudio.com/items?itemName=Zarifprogrammer.tailwind-snippets)
+- Prettier-plugin-tailwindcss (додано до збірки)
 
-Якщо ви використовуєте VS Code, додайте до settings.json:
+Якщо ви використовуєте VS Code, то для налаштування плагіну Prettier-plugin-tailwindcss додайте до settings.json:
 ```
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
