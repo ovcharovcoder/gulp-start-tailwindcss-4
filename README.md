@@ -66,6 +66,7 @@ app/
     |-- index.html
    
 .gitignore
+.prettierignore
 .prettierrc 
 gulpfile.js 
 package.json
