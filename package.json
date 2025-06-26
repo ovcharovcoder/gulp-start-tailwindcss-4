@@ -10,7 +10,7 @@
     "format": "prettier --write \"app/**/*.{html,js,css}\""
   },
   "author": "Andriy Ovcharov",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.10",
     "autoprefixer": "^10.4.21",
