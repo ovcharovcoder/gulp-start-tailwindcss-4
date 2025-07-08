@@ -69,7 +69,6 @@ app/
 gulpfile.js 
 package.json
 postcss.config.js
-tailwind.config.js
 LICENCE
 README.md
 ```
