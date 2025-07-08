@@ -1,29 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-@layer base {
-    html {
-        box-sizing: border-box;
-    }
-    *,
-    *::after,
-    *::before {
-        box-sizing: inherit;
-    }
-
-    .container {
-        max-width: 1380px;
-        padding: 0 10px;
-        margin: auto;
-    }
+html {
+  box-sizing: border-box;
 }
 
-@layer components {
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
 
-@layer utilities {
-    .font-arial {
-        font-family: Arial, sans-serif;
-    }
+.container {
+  max-width: 1380px;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.font-arial {
+  font-family: Arial, sans-serif;
 }
