@@ -1,21 +1,29 @@
 @import 'tailwindcss';
 
-html {
-  box-sizing: border-box;
+@theme {
+  /* Colors */
+  --color-brand-500: #0ea5e9;
+
+  /* Containers */
+  --container-default: 1200px;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
+@layer components {
+  .container {
+    max-width: var(--container-default);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-.container {
-  max-width: 1380px;
-  padding: 0 10px;
-  margin: auto;
+@layer utilities {
+  .bg-brand {
+    background-color: var(--color-brand-500);
+  }
 }
 
-.font-arial {
-  font-family: Arial, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
